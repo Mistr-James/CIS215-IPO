@@ -55,18 +55,18 @@ namespace App {
 		// Advances the variable "i" to the next charaxter in the string.
 		i++;
 		
-	      }
+	    }
 		
-	      // Displays the information gathered into a list.
-	      Output.Line("");
-	      Output.Line("Number of Words: " + WordCnt);
-	      Output.Line("Number of Sentences: " + SentCnt);
-	      Output.Line("Average Number Words per Sentence: " + (float) WordCnt / SentCnt);
-              Output.Line("Number of Characters: " + CharCnt);
-	      Output.Line("Number of Special Characters: " + SpecCnt);
-	      Output.Line("Average Number Characters per Sentence: " + (float) CharCnt / SentCnt);
-	      Output.Line("Number of Numbers: " + NumCnt);
-              Output.Line("\nThank you for using our program.\nGoodbye!");
+	    // Displays the information gathered into a list.
+	    Output.Line("");
+	    Output.Line("Number of Words: " + WordCnt);
+	    Output.Line("Number of Sentences: " + SentCnt);
+	    Output.Line("Average Number Words per Sentence: " + (float) WordCnt / SentCnt);
+            Output.Line("Number of Characters: " + CharCnt);
+	    Output.Line("Number of Special Characters: " + SpecCnt);
+	    Output.Line("Average Number Characters per Sentence: " + (float) CharCnt / SentCnt);
+	    Output.Line("Number of Numbers: " + NumCnt);
+            Output.Line("\nThank you for using our program.\nGoodbye!");
 
             // THIS SHOULD BE THE LAST STATEMENT FOR MAIN
             Console.Read();
