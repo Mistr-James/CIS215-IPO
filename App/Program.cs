@@ -13,26 +13,26 @@ namespace App {
             int WordCnt, CharCnt, NumCnt, SpecCnt;
             /********************** DO NOT EDIT ABOVE THIS LINE **********************************/
 
-	     // Addtional Integer Variables
-             int SentCnt, i, j;
+	    // Addtional Integer Variables
+            int SentCnt, i, j;
 		
-             // Sets the variables "CharCnt", "NumCnt", "SpecCnt", "i" to 0.
-             CharCnt = NumCnt = SpecCnt = i = 0;
+            // Sets the variables "CharCnt", "NumCnt", "SpecCnt", "i" to 0.
+            CharCnt = NumCnt = SpecCnt = i = 0;
 		
-	     // Sets variable "j" as the length of the user entered string.
-	     j = inp.Length;
+	    // Sets variable "j" as the length of the user entered string.
+	    j = inp.Length;
 		
-	     // Calculates the average number of words in the string.
-	     string[] wordNum = inp.Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
-	     WordCnt = wordNum.Length;
+	    // Calculates the average number of words in the string.
+	    string[] wordNum = inp.Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
+	    WordCnt = wordNum.Length;
 		
-	     // Calculates the average number of numbers in the entered string.
-	     string[] sentNum = inp.Split(new char[] { '.', '?', '!' }, StringSplitOptions.RemoveEmptyEntries);
-	     SentCnt = sentNum.Length;
+	    // Calculates the average number of numbers in the entered string.
+	    string[] sentNum = inp.Split(new char[] { '.', '?', '!' }, StringSplitOptions.RemoveEmptyEntries);
+	    SentCnt = sentNum.Length;
 		
-	     // A "While" loop runs through each character of the string and collects info.
-	     while (i < j)
-     	     {
+	    // A "While" loop runs through each character of the string and collects info.
+	    while (i < j)
+     	    {
 		
 	        // An "If" statement that counts how many characters, numbers, and special characters are in the entered string (discounting spaces).
 		if ((char.IsLetterOrDigit(inp[i]) == true) || (char.IsPunctuation(inp[i]) == true) || (char.IsSymbol(inp[i]) == true) && inp[i] != ' ')
