@@ -52,7 +52,7 @@ namespace App {
 		    SpecCnt++;
 	        }
 		     
-		// Advances the variable "i" to the next charaxter in the string.
+		// Advances the variable "i" to the next character in the string.
 		i++;
 		
 	    }
